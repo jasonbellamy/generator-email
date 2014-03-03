@@ -1,0 +1,44 @@
+{
+  "name": "generator-email",
+  "description": "Yeoman generator to help ease the development of HTML emails.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jasonbellamy/generator-email",
+  "author": {
+    "name": "Jason Bellamy",
+    "email": "j@sonbellamy.com",
+    "url": "http://jasonbellamy.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonbellamy/generator-email.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonbellamy/generator-email/issues"
+  },
+  "license": "MIT",
+  "main": "app/index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "email",
+    "html",
+    "premailer"
+  ]
+}
