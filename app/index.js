@@ -22,7 +22,8 @@ var EmailGenerator = yeoman.generators.Base.extend({
       {
         name: "projectName",
         message: "What's the name of this email template?",
-        type: "input"
+        type: "input",
+        default: path.basename( process.cwd() )
       },
       {
         name: "stylesheet",
