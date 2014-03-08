@@ -1,7 +1,7 @@
 {
   "name": "generator-email",
   "description": "Yeoman generator to help ease the development of HTML emails.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jasonbellamy/generator-email",
   "author": {
     "name": "Jason Bellamy",
