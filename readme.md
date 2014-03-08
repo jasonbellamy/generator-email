@@ -29,9 +29,31 @@ To generate the email development environment, type: `yo email` and answer the q
 
 The following tasks will now be made available to you via [Grunt](http://gruntjs.com) to help you develop and distribute your HTML emails.
 
-- `grunt start` - Starts a web server, opens the browser, and refreshes the page when changes occur.
-- `grunt development` - manually compiles the development build.
-- `grunt distribution`  - manually compiles the distribution build.
+- `grunt start` - starts a web server, opens the browser, and refreshes the page when changes occur.
+- `grunt build:development` - manually compiles the development build.
+- `grunt build:distribution`  - manually compiles the distribution build.
+
+---
+
+The generator will also scaffold out the following file & folder structure for you.
+
+```
+├── dist
+│   ├── images
+│   └── index.html
+├── src
+│   ├── css
+│   │   └── core.{css,scss,sass}
+│   ├── images
+│   └── index.html
+├── Gruntfile.js
+└── package.json
+
+```
+
+- `src/` - source files that you should develop with.
+- `dist/` - compiled build files suitable for distribution. Created by running `grunt build:distribution`
+
 
 
 ## Contributing
